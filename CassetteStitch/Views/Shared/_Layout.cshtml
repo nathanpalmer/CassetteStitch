@@ -1,0 +1,18 @@
+﻿@{
+    //Bundles.Reference("Scripts/jquery-1.5.1.min.js");
+    //Bundles.Reference("Scripts/modernizr-1.7.min.js");
+    Bundles.Reference("Content/Site.css");
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    @Bundles.RenderStylesheets()
+</head>
+
+<body>
+    @RenderBody()
+    @Bundles.RenderScripts()
+</body>
+</html>
