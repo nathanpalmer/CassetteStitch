@@ -33,3 +33,4 @@ Source/SolutionVersion.cs
 [Bb]uild
 *Thumbs.db
 packages
+.DS_Store
